@@ -13,4 +13,6 @@ This repo contains the required files for a web application that that revolves a
 # Fomalities
 -directory formalities consists of documentation and presentation for final defense of this projescheema
 -view page number 21, figure 3.13, for database scheema. 
--populate newsinfotble 
+-populate newsinfotable as: 
+<br> "1,NepalNews ,https://nepalnews.com/s/politics,.uk-link-heading,.uk-text-large, .uk-link-heading".
+<br> "2, NepalKhabar, https://nepalkhabar.com/category/politics, .uk-link-reset, .uk-text-large,.uk-link-reset".
