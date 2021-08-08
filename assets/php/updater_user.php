@@ -18,10 +18,10 @@
                 phone = '$phone',  
                 priority = '$priority' WHERE id = '$id'";
             $result = mysqli_query($conn, $sql);
-            header('Location:http://localhost/loginpage/action_user.php');
+            header('Location:http://localhost/WebScraping/php/action_user.php');
             }
     else{
-        header('Location:http://localhost/loginpage/error.php');
+        header('Location:http://localhost/WebScraping/php/error.php');
     }
     mysqli_close($conn);
 ?>
