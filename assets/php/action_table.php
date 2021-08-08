@@ -32,7 +32,7 @@ if(mysqli_num_rows($result) > 0){
     <link rel="stylesheet" type="text/css" href="../css/style.css">	
 </head>
 <body>
-    <?php include "../php/partials/navigation.php"?>
+    <?php include "partials/navigation.php"?>
     <div class="container-fluid">
         <h1 align="center">Manage Tables</h1>
         <div id="table-control-container">
