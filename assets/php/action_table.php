@@ -1,7 +1,7 @@
 <?php
 include "session_verification.php";
 if(($_SESSION['priority'])<1){
-    header("Location:http://localhost/loginpage/error.php");
+    header("Location:http://localhost/WebScraping/php/error.php");
 }
 else{
 include "configure.php";
