@@ -17,7 +17,7 @@
 </head>
 <body>
 <?php 
-    include '../php/partials/navigation.php';
+    include 'partials/navigation.php';
 ?>
 <div class="container-fluid">
 <br>
