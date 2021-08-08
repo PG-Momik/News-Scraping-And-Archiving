@@ -4,7 +4,7 @@ if(isset($_POST['Delete'])){
     include 'configure.php';
     $sql = "DELETE from newsinfotabel WHERE id = '$index' ";
     if ($conn->query($sql) === TRUE) {
-        header('Location:http://localhost/loginpage/action_scraper.php');
+        header('Location:http://localhost/WebScraping/php/action_scraper.php');
     } else {
         echo "Error deleting record: " . $conn->error;
         echo "</br>";
