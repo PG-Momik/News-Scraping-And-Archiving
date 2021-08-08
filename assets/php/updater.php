@@ -20,10 +20,10 @@
                 article_class = '$article_class',  
                 article_link_class = '$article_link_class' WHERE id = '$id'";
             $result = mysqli_query($conn, $sql);
-            header('Location:http://localhost/loginpage/action_scraper.php');
+            header('Location:http://localhost/WebScraping/php/action_scraper.php');
             }
     else{
-        header('Location:http://localhost/loginpage/error.php');
+        header('Location:http://localhost/WebScraping/php/error.php');
     }
     mysqli_close($conn);
 ?>
