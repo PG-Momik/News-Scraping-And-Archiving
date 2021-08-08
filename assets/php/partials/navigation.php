@@ -14,7 +14,7 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link action" href="index.php">Home</a>
+                    <a class="nav-link action" href="./././index.php">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="aboutus.php">About us</a>
