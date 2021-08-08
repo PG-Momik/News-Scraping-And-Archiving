@@ -5,5 +5,5 @@ session_start();
 session_unset();
 //destroying session 
 session_destroy();
-header('Location:http://localhost/loginpage/index.php');
+header('Location:http://localhost/WebScraping/php/index.php');
 ?>
