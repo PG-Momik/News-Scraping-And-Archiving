@@ -18,4 +18,5 @@ This repo contains the required files for a web application that that revolves a
 -populate newsinfotable as: 
 <br> "1, NepalNews, https://nepalnews.com/s/politics, .uk-link-heading,.uk-text-large, .uk-link-heading".
 <br> "2, NepalKhabar, https://nepalkhabar.com/category/politics, .uk-link-reset, .uk-text-large, .uk-link-reset".
- 
+<br>
+# Thank You. 
