@@ -4,7 +4,7 @@ if(isset($_POST['delete-user'])){
     include 'configure.php';
     $sql = "DELETE from userdata WHERE id = '$id' ";
     if ($conn->query($sql) === TRUE) {
-        header('Location:http://localhost/loginpage/action_user.php');
+        header('Location:http://localhost/WebScraping/php/action_user.php');
     } else {
         echo "Error deleting record: " . $conn->error;
         echo "</br>";
