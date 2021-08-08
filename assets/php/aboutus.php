@@ -1,4 +1,4 @@
-<?php include '../php/session_verification.php';?>
+<?php include 'session_verification.php';?>
 <!DOCTYPE html>
 <html>
 <head>
