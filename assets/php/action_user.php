@@ -1,7 +1,7 @@
 <?php
     include 'session_verification.php';
     if(($_SESSION['priority'])<1){
-        header("Location:http://localhost/loginpage/error.php");
+        header("Location:http://localhost/WebScraping/php/error.php");
     }
     else{
 ?>
@@ -12,10 +12,10 @@
 	<title>User Controls</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="finalcss.css">	
+    <link rel="stylesheet" type="text/css" href="../css/style.css">	
 </head>
 <body>
-    <?php include 'navigation.php';?>
+    <?php include 'partials/navigation.php';?>
     <div class="container-fluid">
         <h1 align="center">User Controls</h1>
         <div class="user-wrapper">
