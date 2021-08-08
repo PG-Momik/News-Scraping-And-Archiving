@@ -1,4 +1,4 @@
-<?php include 'session_verification.php';?>
+<?php include '../php/session_verification.php';?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,28 +25,28 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link action" href="index.php">Home</a>
+                    <a class="nav-link action" href="./././index.php">Home</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="aboutus.php">About us</a>
+                    <a class="nav-link" href="../php/aboutus.php">About us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contactus.php">Contact us</a>
+                    <a class="nav-link" href="../php/contactus.php">Contact us</a>
                 </li>
                 <?php
                 if((isset($_SESSION['username']) && $_SESSION['priority'] == 1)){
                 echo '<li class="nav-item">';
-                    echo '<a class="nav-link" href="admin.php">Dashboard</a>';
+                    echo '<a class="nav-link" href="../php/admin.php">Dashboard</a>';
                 echo '</li>';
                 }
                 ?>
                 <?php if(isset($_SESSION['username']) ){?>
                     <li class="nav-item">
-                        <a class="nav-link" href="logout.php">Logout</a>
+                        <a class="nav-link" href="../php/logout.php">Logout</a>
                     </li>
                     <?php }else{?>
                     <li class="nav-item">
-                        <a class="nav-link" href="login.php">Get Started</a>
+                        <a class="nav-link" href="../php/login.php">Get Started</a>
                     </li>
 			    <?php }?>
 			</ul>
