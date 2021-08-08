@@ -10,3 +10,7 @@ This repo contains the required files for a web application that that revolves a
 # Instruction
 -Follow the package.json and package-lock.json files add necessasry dependencies namely node(?), myslq and puppeteer.
 
+# Fomalities
+-directory formalities consists of documentation and presentation for final defense of this projescheema
+-view page number 21, figure 3.13, for database scheema. 
+-populate newsinfotble 
