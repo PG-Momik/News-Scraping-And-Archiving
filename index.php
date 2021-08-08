@@ -1,11 +1,11 @@
-<?php include 'session_verification.php';?>
+<?php include 'assets/php/session_verification.php';?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Index</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="finalcss.css">	
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">	
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light nav-container">
@@ -27,25 +27,25 @@
                     <a class="nav-link action" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="aboutus.php">About us</a>
+                    <a class="nav-link" href="assets/php/aboutus.php">About us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contactus.php">Contact us</a>
+                    <a class="nav-link" href="assets/php/contactus.php">Contact us</a>
                 </li>
                 <?php
                 if((isset($_SESSION['username']) && $_SESSION['priority'] == 1)){
                 echo '<li class="nav-item">';
-                    echo '<a class="nav-link" href="admin.php">Dashboard</a>';
+                    echo '<a class="nav-link" href="assets/php/admin.php">Dashboard</a>';
                 echo '</li>';
                 }
                 ?>
                 <?php if(isset($_SESSION['username']) ){?>
                     <li class="nav-item">
-                        <a class="nav-link" href="logout.php">Logout</a>
+                        <a class="nav-link" href="assets/php/logout.php">Logout</a>
                     </li>
                     <?php }else{?>
                     <li class="nav-item">
-                        <a class="nav-link" href="login.php">Get Started</a>
+                        <a class="nav-link" href="assets/php/login.php">Get Started</a>
                     </li>
 			    <?php }?>
 			</ul>
@@ -72,7 +72,7 @@
                 </div>
             </div>
             <div class="search-wrapper">
-                    <form class="row form-design" name="form-design" action="view.php" method="POST">
+                    <form class="row form-design" name="form-design" action="assets/php/view.php" method="POST">
                         <div class="col"><input type="search" id="main-search" name="search" placeholder=" Seach by date (YYYY-MM-DD)" required></div>
                         <div class="col" id="jyalemaju"><input type="submit" id="main-submit" name="submit" value="Find"></div>
                     </form>
@@ -120,8 +120,8 @@
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="weather.js"></script>
-<script src="darkmode.js"></script>
+<script src="assets/js/darkmode.js"></script>
+<script src="assets/js/weather.js"></script>
 <style>
     #main-search{
         margin-right:50px;
