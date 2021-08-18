@@ -21,7 +21,7 @@ This repo contains the required files for a web application that that revolves a
 <br>
 
 # Warning 
--for those who try to use this repo for Academic Submission, the  codes will not work because of the changes I made it such that. scrape.js and search.php codes must be corrected such that the project functions properly, this requires significant knowledge of JavaScript event cycles, Asynchronous JavaScript and PHP crud.
+-for those who try to use this repo for Academic Submission, the  codes will not work because of the changes I made in it. scrape.js and search.php codes must be corrected such that the project functions properly, this requires significant knowledge of JavaScript event cycles, Asynchronous JavaScript and PHP CRUD.
 <br>
--thi project and its contents can however be cited as a Reference for yours.
+-this project and its contents can however be cited as a Reference for yours.
 # Thank You. 
