@@ -19,4 +19,9 @@ This repo contains the required files for a web application that that revolves a
 <br> "1, NepalNews, https://nepalnews.com/s/politics, .uk-link-heading,.uk-text-large, .uk-link-heading".
 <br> "2, NepalKhabar, https://nepalkhabar.com/category/politics, .uk-link-reset, .uk-text-large, .uk-link-reset".
 <br>
+
+# Warning 
+-for those who try to use this repo for Academic Submission, the  codes will not work because of the changes I made it such that. scrape.js and search.php codes must be corrected such that the project functions properly, this requires significant knowledge of JavaScript event cycles, Asynchronous JavaScript and PHP crud.
+<br>
+-thi project and its contents can however be cited as a Reference for yours.
 # Thank You. 
