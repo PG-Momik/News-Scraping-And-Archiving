@@ -1,5 +1,5 @@
 # WebScraping
-4th Semester Project (i)
+4th Semester Project I (CAPJ256).
 # Introduction
 This repo contains the required files for a web application.
 <br>
