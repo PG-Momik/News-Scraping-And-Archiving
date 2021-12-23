@@ -35,3 +35,7 @@
 # Desclaimer
 
 - Not Object Oriented
+
+# Screenshots
+
+- Screenshots can be found here: <a href="https://github.com/shreejupradhan/WebScraping-Archiving"> Shreeju Pradhan </a>
